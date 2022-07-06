@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<!--meta name="description" content="Family-owned DIY & hardware business in Limerick City 
+		providing personal customer service for almost 60 years. 
+		For any queries, please call us on 061 416181 or email dalyslimerick@gmail.com." /-->
+		<meta name="description" content="LIMERICKS HARDWARE, DIY & HOME DECORATING SPECIALISTS. 
+		Call Daly's Limerick Hardware Store on 061 416181 or email dalyslimerick@gmail.com.">
+		<base href="https://www.dalyslimerick.com/" />
+		<title>DIY Limerick | Hardware Store Limerick | Dalys Limerick</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			main > * {
+				background-color: #9894a6;
+				color: white;
+			}
+			
+			article, figure {
+				margin: 0;
+			}
+			
+			article {
+				margin-top: 1.5em;
+				padding: 1em 2em;
+			}
+			
+			figure {
+				margin-bottom: 1.5em;
+				text-align: center;
+				padding-bottom: .75em;
+			}
+
+			figure img {
+				padding: .2em;
+			}
+
+			figcaption {
+				padding-bottom: 1em;
+				font-size: 1.5em;
+			}
+			
+			main > section {
+				padding: 1.5em 1em;
+				padding-bottom: .5em;
+				background-color: #ebebeb;
+				color: #333333;
+				margin-right: 2px;
+			}
+
+			main > section + section + section {
+				margin-right: 0;
+			}
+
+			main > section > * {
+				width: 96%;
+			}
+
+			main > section > img {
+				width: 70%;
+			}
+
+			main > section > img + h1 {
+				font-weight: bold;
+				color: #616161;
+			}
+
+			main > section a {
+				background-color: #484162;
+				color: white;
+				text-decoration: none;
+				padding: .4em 1.5em;
+			}
+
+			#brands {
+				padding: 0;
+				background-color: white;
+			}
+			
+			@media screen and (min-width: 768px) {
+				main > section > img {
+					width: 96%;
+				}
+				
+				figcaption {
+					padding: 1em;
+				}
+				
+				main {
+					display: grid;
+					grid-template-columns: 33.33% 33.33% 33.33%;
+					grid-template-rows: auto;
+					grid-template-areas: 'top top top'
+										 'main main main'
+										 'social social social'
+										 'section1 section2 section3'
+										 'bottom bottom bottom'
+				}
+
+				main > img {
+					grid-area: top;
+				}
+
+				article {
+					grid-area: main;
+				}
+
+				figure {
+					grid-area: social;
+				}
+
+				main > section {
+					grid-area: section1;
+				}
+
+				main > section + section {
+					grid-area: section2;
+				}
+
+				main > section + section + section {
+					grid-area: section3;
+				}
+
+				main > section + section + section + section {
+					grid-area: bottom;
+				}
+			}
+			
+			@media screen and (min-width: 1024px) {
+				article, figure {
+					margin: 1.5em 0;
+				}
+
+				article {
+					margin-right: 4em;
+				}
+				
+				figure {
+					margin-left: -3.5em;
+					padding: .75em 0;
+				}
+				
+				main {
+					grid-template-columns: 33.33% 33.33% 33.33%;
+					grid-template-areas: 'top top top'
+										 'main main social'
+										 'section1 section2 section3'
+										 'bottom bottom bottom'
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>LIMERICKS HARDWARE, DIY &amp; HOME DECORATING SPECIALISTS</h1>
+			</div>
+			<img src="images/logo-dalys-limerick.png" height="133" width="362" alt="Logo of Daly's Limerick" />
+			<p>
+				<img src="images/call-limerick-hardware-store.jpg" height="27" width="27"
+					alt="call-limerick-hardware-store" />
+				061 416181
+			</p>
+			<p>dalyslimerick@gmail.com</p>
+		</header>
+		<nav>
+			<!--select id="mySelect" onchange="myFunction()"-->
+			<select onchange="window.location.href = options[selectedIndex].value;">
+				<option value="" selected="selected">Home</option>
+				<option value="diy-hardware">DIY / Hardware</option>
+				<option value="home-decor">Home Decor</option>
+				<option value="lighting">Lighting</option>
+				<option value="in-demand">In Demand</option>
+				<!--option value="xmas">Christmas</option-->
+				<option value="contact">Contact</option>
+				<option value="find-us">Find Us</option>
+			</select>
+			<ul>
+				<li><a href="">HOME</a></li><!--
+				--><li><a href="diy-hardware">DIY / HARDWARE</a></li><!--
+				--><li><a href="home-decor">HOME DECOR</a></li><!--
+				--><li><a href="lighting">LIGHTING</a></li><!--
+				--><li><a href="in-demand">IN DEMAND</a></li><!--
+				<li><a href="xmas">XMAS</a></li>
+				--><li><a href="contact">CONTACT</a></li><!--
+				--><li><a href="find-us">FIND US</a></li>
+			</ul>
+		</nav>
+		<main>
+			<img src="images/dalys-hardware-store-limerick.jpg" height="299" width="860" 
+				alt="dalys-hardware-store-limerick" />
+			<article>
+				<h1 style="text-align: center;">
+					Welcome to Daly's Hardware Store in Limerick City
+				</h1>
+				<h2 style="text-align: center;">
+					Limerick's leading provider of  DIY, hardware, home decor, lighting & electrical goods and services!
+				</h2>
+				<p>
+					Dalys Hardware Store of Limerick city has been serving the people of Limerick City and beyond since 1958.
+					We pride ourselves in offering an extensive selection of quality household goods and DIY products and materials 
+					at affordable prices - always with the superior customer service for which we have become renowned.
+				</p>
+				<p>
+					We only stock top quality DIY products and brands to assist you choose the right tool for the job, 
+					from a drill set to a power saw, and everything inbetween that you might need to decorated or improve your home or garden.
+				</p>
+				<p>
+					We pride ourselves on looking after our customers. 
+					If you have any questions or need advice, our dedicated team is here to help. 
+					With new stock arriving each week, customers can keep an eye out for our regular special offers in-store.
+				</p>
+			</article>
+			<figure>
+				<figcaption>Social Media</figcaption>
+				<a href="https://www.facebook.com/dalys.limerick">
+					<img src="images/facebook_grey.png" height="140" width="140" 
+					title='Facebook' alt="The blue facebook logo" />
+				</a>
+				<a href="https://www.facebook.com/dalys.limerick">
+					<img src="images/shop_front.jpg" height="140" width="140" />
+				</a>
+				<a href="https://www.instagram.com/dalyshardwarelimerick">
+					<img src="images/leo.jpg" height="140" width="140" />
+				</a>
+				<a href="https://www.instagram.com/dalyshardwarelimerick">
+					<img src="images/instagram_grey.png" height="140" width="140" 
+					title='Instagram' alt="The instagram logo" />
+				</a>
+			</figure>
+			<section>
+				<img style="display: block; margin-left: auto; margin-right: auto;"
+					src="images/diy-shop-limerick-hardware-store-limerick.jpg"
+					alt="diy-shop-limerick-hardware-store-limerick"/>
+				<h1 style="text-align: center;">
+					DIY / HARDWARE
+				</h1>
+				<p style="text-align: center;">
+					Daly's Limerick large selection of DIY tools and equipment makes it easy for you to tackle 
+					those DIY jobs around the house. Full range of power tools and manual tools in store.&nbsp;
+				</p>
+				<p style="text-align: center;">
+					<a href="diy-hardware">READ MORE</a>
+				</p>		
+			</section>
+			<section>
+				<img style="display: block; margin-left: auto; margin-right: auto;"
+					src="images/paint-shop-limerick-wallpaper-shop-limerick.jpg"
+					alt="paint-shop-limerick-wallpaper-shop-limerick" />
+				<h1 style="text-align: center;">
+					HOME DECOR
+				</h1>
+				<p style="text-align: center;">
+					At Daly's Limerick you will find everything you need to decorate your home. 
+					We stock a selection of paints and wallpapers as well as 
+					soft furnishings, pictures, mirrors and small furniture items.
+				</p>
+				<p style="text-align: center;">
+					<a href="home-decor">READ MORE</a>
+				</p>		
+			</section>
+			<section>
+				<img style="display: block; margin-left: auto; margin-right: auto;" 
+					src="images/lighting-store-limerick.jpg"
+					alt="lighting-store-limerick"/>
+				<h1 style="text-align: center;">
+					LIGHTING
+				</h1>
+				<p style="text-align: center;">
+					Daly's Limerick has an extensive range of lighting solutions. 
+					From ceiling lights to spot lights, lamps to wall lights in a vast range of colours and styles, 
+					we have something to suit all tastes and budgets.
+				</p>
+				<p style="text-align: center;">
+					<a href="lighting">READ MORE</a>
+				</p>		
+			</section>
+			<section id="brands">
+				<h1>STOCKIST OF ALL LEADING BRANDS IN HOME DECOR AND DIY & HARDWARE</h1>	
+				<img src="images/logos.jpg" alt="Logos of leading brands"/>
+			</section>
+		</main>
+		<footer>
+			<section>
+				<h3>Visit Our Store</h3>
+				<p><strong>Daly's</strong></p>
+				<p>50-51 William Street</p>
+				<p>Limerick</p>
+			</section>
+			<section>
+				<h3>Open Hours</h3>	
+				<table>
+					<tbody>
+						<tr>
+							<td style="padding-right: 5px;"><strong>Monday to Friday</strong></td>
+							<td>9:00 - 17:30</td>
+						</tr>
+						<tr>
+							<td><strong>Saturday</strong></td>
+							<td>9:00 - 17:30</td>
+						</tr>
+						<tr>
+							<td><strong>Sunday</strong></td>
+							<td>Closed</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h3>Contact Us</h3>	
+				<p><strong>Tel:</strong> 061 416181</p>
+				<p><strong>Tel 2:</strong> 061 412854</p>
+				<p><strong>Email:</strong> dalyslimerick@gmail.com</p>
+			</section>
+		</footer>
+	</body>
+	<!--script>
+		function myFunction() {
+			var x = document.getElementById("mySelect");
+		    var i = x.selectedIndex;
+			//document.getElementById("demo").innerHTML = x.options[i].value;
+			window.location.href = x.options[i].value;
+		}
+	</script-->
+</html>

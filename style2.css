@@ -1,0 +1,16 @@
+article > h2 {
+	background-color: #9894a6;
+	color: white;
+	padding: .4em .7em;
+}
+
+article > p {
+	margin-top: 0;
+	padding: 1.6em 1em;
+	padding-bottom: .3em;
+}
+
+article > p ~ p {
+	padding-top: 0;
+	padding-bottom: .6em;
+}

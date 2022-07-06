@@ -1,0 +1,4 @@
+<p> 
+	<i>33L White Candlebridge</i><br>
+	<strong>€33.00</strong>
+</p>

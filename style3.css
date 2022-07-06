@@ -1,0 +1,23 @@
+article > ul {
+	float: left;
+}
+
+article > ul a {
+	line-height: 1.7;
+}
+
+article > img {
+	max-width: 90%;
+	height: auto;
+	margin: 0 1em;
+}
+
+@media screen and (min-width: 768px) {
+	article {
+		text-align: right;
+	}
+
+	article > * {
+		text-align: left;
+	}
+}
